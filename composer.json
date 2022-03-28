@@ -1,5 +1,5 @@
 {
-    "name": "wewowweb/laravel-svelte-preset",
+    "name": "thmr/laravel-svelte-preset",
     "description": "Svelte frontend preset for Laravel.",
     "keywords": [
         "svelte",
@@ -7,7 +7,7 @@
         "laravel-svelte-preset",
         "we wow web"
     ],
-    "homepage": "https://github.com/wewowweb/laravel-svelte-preset",
+    "homepage": "https://github.com/thmr/laravel-svelte-preset",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Wewowweb\\LaravelSveltePreset\\": "src"
+            "Thmr\\LaravelSveltePreset\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wewowweb\\LaravelSveltePreset\\Tests\\": "tests"
+            "Thmr\\LaravelSveltePreset\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wewowweb\\LaravelSveltePreset\\LaravelSveltePresetServiceProvider"
+                "Thmr\\LaravelSveltePreset\\LaravelSveltePresetServiceProvider"
             ]
         }
     }
